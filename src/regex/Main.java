@@ -17,7 +17,11 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+//        Try considering the names
+//            Mathias d'Arras
+//            Martin Luther King, Jr.
+//            Hector Sausage-Hausen
+
         Scanner scanner = new Scanner(System.in);
         String input;
         String regex_name="^([A-Z][a-z ]+)+$";
