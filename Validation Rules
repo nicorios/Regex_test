@@ -1,0 +1,9 @@
+Mail:
+	- Using regex from RFC.
+
+Name:
+p/c linea:	- Solamente puede contener letras y caracteres autorizados (.'-). En caso de haber " - " Se limpia lo siguiente.
+		- Si tiene +5 palabras -> Descartar.
+		Ponderacion: - 2 palabras capitalizadas -> Pasa
+		      
+

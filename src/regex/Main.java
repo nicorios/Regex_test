@@ -24,7 +24,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         String input;
-        String regex_name="^([A-Z][a-z ]+)+$";
+        String regex_name="^([A-Z]+[a-z ]+)([A-Z]*[a-z ',.-]+)*([A-Z]*[a-z .-]+)+$";
         do{
             input = scanner.nextLine();
             System.out.println(input.matches(regex_name));
